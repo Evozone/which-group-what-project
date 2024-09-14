@@ -1,2 +1,6 @@
 streamlit
+streamlit-extras
+streamlit-js
+streamlit-url-fragment
+streamlit-cookies-manager
 supabase
