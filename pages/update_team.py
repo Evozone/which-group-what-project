@@ -1,7 +1,7 @@
 import streamlit as st
 from frontend.utils.sidebar import set_sidebar
 
-set_sidebar(st.session_state.user)
+set_sidebar()
 
 st.title("Update Team")
 

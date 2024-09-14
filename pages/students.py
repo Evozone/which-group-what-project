@@ -2,7 +2,7 @@ from backend.students import get_students
 from frontend.utils.sidebar import set_sidebar
 import streamlit as st
 
-set_sidebar(st.session_state.user)
+set_sidebar()
 st.title("Students in PCE Comp Engg")
 
 
