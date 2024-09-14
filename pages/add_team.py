@@ -3,13 +3,7 @@ from frontend.utils.sidebar import set_sidebar
 from backend.team import get_student_status
 from backend.team import add_team
 
-set_sidebar(
-    user={
-        "full_name": "John Doe",
-        "avatar_url": "https://avatars.githubusercontent.com/u/832385?s=200&v=4",
-    }
-)
-
+set_sidebar(st.session_state.user)
 st.title("Add Team")
 
 
